@@ -57,7 +57,7 @@ onMounted(() => {
 
 <template>
 	<main>
-		<h1>My Anime Tracker</h1>
+		<h1>My Anime Whatchlist</h1>
 
 		<form @submit.prevent="searchAnime">
 			<input type="text" placeholder="Search for an anime..." v-model="query" @input="handleInput" />
